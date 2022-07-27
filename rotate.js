@@ -13,5 +13,5 @@ function rotate() {
   } else {
     imageIndex ++;
   }
-  document.getElementById('img-placeholder').src = 'images/' + imageIndex + '.jpg';
+  document.getElementById('img-placeholder').src = imageIndex + '.jpg';
 }
